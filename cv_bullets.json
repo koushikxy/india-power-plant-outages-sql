@@ -1,0 +1,9 @@
+{
+  "name": "India Power Plant Outages (SQL)",
+  "tech": "MySQL 8.4, Python (pandas)",
+  "bullets": [
+    "Cleaned 1,093 daily CEA outage reports into 165,249 rows in MySQL and checked every day against CEA's own totals",
+    "Found breakdowns were 46.5% of the 40.3 GW out per day, and traced most of the 2025-26 rise to one plant's shutdown (17.2, 16.4, 17.9 GW a day without Mundra UMTPP)",
+    "Showed CEA's forced-outage column mixes in reserve shutdowns (9.4 GW a day in 2025-26) after a 2025 reporting change, and grouped outages by reason text instead"
+  ]
+}

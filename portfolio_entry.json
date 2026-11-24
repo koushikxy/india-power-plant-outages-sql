@@ -1,0 +1,7 @@
+{
+  "title": "Why are India's power plants out of service?",
+  "description": "Three years of CEA daily outage reports for coal and nuclear units, in MySQL",
+  "tools": "MySQL, Python",
+  "slug": "india-power-plant-outages-sql",
+  "cover": "screenshots/cover.png"
+}

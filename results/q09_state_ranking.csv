@@ -1,0 +1,17 @@
+region,state_name,capacity_mw,breakdown_pct,breakdown_ex_mundra_pct,india_rank,rank_in_region
+Western,Gujarat,20712,13.3,7.0,1,1
+Southern,Tamil Nadu,17393,11.2,11.2,2,1
+Southern,Andhra Pradesh,14190,9.6,9.6,3,2
+Northern,Punjab,5680,9.5,9.5,4,1
+Northern,Rajasthan,12144,9.4,9.4,5,2
+Southern,Karnataka,10680,9.3,9.3,6,3
+Northern,Haryana,5330,9.1,9.1,7,3
+Eastern,Bihar,10170,7.8,7.8,8,1
+Eastern,Odisha,10300,6.8,6.8,9,2
+Western,Maharashtra,26616,6.2,6.2,10,2
+Southern,Telangana,11843,5.6,5.6,11,4
+Western,Madhya Pradesh,21170,5.6,5.6,12,3
+Eastern,Jharkhand,7030,5.5,5.5,13,3
+Western,Chhattisgarh,27863,5.2,5.2,14,4
+Northern,Uttar Pradesh,30235,5.2,5.2,15,4
+Eastern,West Bengal,13247,5.1,5.1,16,4

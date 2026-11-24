@@ -1,0 +1,8 @@
+id	select_type	table	partitions	type	possible_keys	key	key_len	ref	rows	filtered	Extra
+1	SIMPLE	outage_reports	NULL	ALL	uq_report	NULL	NULL	NULL	165249	11.11	Using where; Using temporary
+EXPLAIN
+-> Table scan on <temporary>  (actual time=157..157 rows=31 loops=1)\n    -> Aggregate using temporary table  (actual time=157..157 rows=31 loops=1)\n        -> Filter: (outage_reports.report_date between '2025-05-01' and '2025-05-31')  (cost=16525 rows=18359) (actual time=99.4..153 rows=4306 loops=1)\n            -> Table scan on outage_reports  (cost=16525 rows=165249) (actual time=0.708..59.7 rows=165249 loops=1)\n
+id	select_type	table	partitions	type	possible_keys	key	key_len	ref	rows	filtered	Extra
+1	SIMPLE	outage_reports	NULL	range	uq_report,idx_report_date	idx_report_date	3	NULL	4306	100.00	Using index condition
+EXPLAIN
+-> Group aggregate: count(0), sum((outage_reports.forced_major_mw + outage_reports.forced_minor_mw))  (cost=2369 rows=1120) (actual time=0.611..10.4 rows=31 loops=1)\n    -> Index range scan on outage_reports using idx_report_date over ('2025-05-01' <= report_date <= '2025-05-31'), with index condition: (outage_reports.report_date between '2025-05-01' and '2025-05-31')  (cost=1938 rows=4306) (actual time=0.583..9.5 rows=4306 loops=1)\n

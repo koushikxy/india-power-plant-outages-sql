@@ -1,0 +1,5 @@
+station_name,state_name,sector,unit_no,capacity_mw,breakdowns
+TENUGHAT TPS,Jharkhand,State,2,210.00,105
+BARH STPS,Bihar,Central,1,660.00,71
+SVPL TPP,Chhattisgarh,Pvt,1,63.00,70
+BARH STPS,Bihar,Central,2,660.00,60

@@ -1,0 +1,19 @@
+state_name,fiscal_year,avg_breakdown_mw,change_vs_last_year
+Andhra Pradesh,2023-24,1234,NULL
+Andhra Pradesh,2024-25,1351,117
+Andhra Pradesh,2025-26,1510,159
+Chhattisgarh,2023-24,1608,NULL
+Chhattisgarh,2024-25,1157,-451
+Chhattisgarh,2025-26,1596,439
+Gujarat,2023-24,2427,NULL
+Gujarat,2024-25,1947,-480
+Gujarat,2025-26,4228,2281
+Maharashtra,2023-24,1703,NULL
+Maharashtra,2024-25,1794,91
+Maharashtra,2025-26,1514,-280
+Tamil Nadu,2023-24,1777,NULL
+Tamil Nadu,2024-25,1879,102
+Tamil Nadu,2025-26,2309,431
+Uttar Pradesh,2023-24,1540,NULL
+Uttar Pradesh,2024-25,1641,101
+Uttar Pradesh,2025-26,1741,100

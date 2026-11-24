@@ -1,0 +1,4 @@
+sector,units,capacity_mw,breakdown_pct,no_demand_pct
+State,234,78788,9.5,4.6
+Pvt,239,89695,7.7,4.4
+Central,178,76870,5.1,1.5
